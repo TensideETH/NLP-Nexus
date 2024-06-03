@@ -1,0 +1,6 @@
+import nltk
+
+# Пример обработки естественного языка с использованием NLTK
+sentence = "This is an example sentence for natural language processing."
+tokens = nltk.word_tokenize(sentence)
+print(tokens)
